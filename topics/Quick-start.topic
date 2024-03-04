@@ -1,237 +1,115 @@
-<?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE topic SYSTEM "https://resources.jetbrains.com/writerside/1.0/html-entities.dtd">
+<div class="loader">
+  <svg height="0" width="0" viewBox="0 0 64 64" class="absolute">
+    <defs class="s-xJBuHA073rTt" xmlns="http://www.w3.org/2000/svg">
+      <linearGradient
+        class="s-xJBuHA073rTt"
+        gradientUnits="userSpaceOnUse"
+        y2="2"
+        x2="0"
+        y1="62"
+        x1="0"
+        id="b"
+      >
+        <stop class="s-xJBuHA073rTt" stop-color="#973BED"></stop>
+        <stop class="s-xJBuHA073rTt" stop-color="#007CFF" offset="1"></stop>
+      </linearGradient>
+      <linearGradient
+        class="s-xJBuHA073rTt"
+        gradientUnits="userSpaceOnUse"
+        y2="0"
+        x2="0"
+        y1="64"
+        x1="0"
+        id="c"
+      >
+        <stop class="s-xJBuHA073rTt" stop-color="#FFC800"></stop>
+        <stop class="s-xJBuHA073rTt" stop-color="#F0F" offset="1"></stop>
+        <animateTransform
+          repeatCount="indefinite"
+          keySplines=".42,0,.58,1;.42,0,.58,1;.42,0,.58,1;.42,0,.58,1;.42,0,.58,1;.42,0,.58,1;.42,0,.58,1;.42,0,.58,1"
+          keyTimes="0; 0.125; 0.25; 0.375; 0.5; 0.625; 0.75; 0.875; 1"
+          dur="8s"
+          values="0 32 32;-270 32 32;-270 32 32;-540 32 32;-540 32 32;-810 32 32;-810 32 32;-1080 32 32;-1080 32 32"
+          type="rotate"
+          attributeName="gradientTransform"
+        ></animateTransform>
+      </linearGradient>
+      <linearGradient
+        class="s-xJBuHA073rTt"
+        gradientUnits="userSpaceOnUse"
+        y2="2"
+        x2="0"
+        y1="62"
+        x1="0"
+        id="d"
+      >
+        <stop class="s-xJBuHA073rTt" stop-color="#00E0ED"></stop>
+        <stop class="s-xJBuHA073rTt" stop-color="#00DA72" offset="1"></stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 64 64"
+    height="64"
+    width="64"
+    class="inline-block"
+  >
+    <path
+      stroke-linejoin="round"
+      stroke-linecap="round"
+      stroke-width="8"
+      stroke="url(#b)"
+      d="M 54.722656,3.9726563 A 2.0002,2.0002 0 0 0 54.941406,4 h 5.007813 C 58.955121,17.046124 49.099667,27.677057 36.121094,29.580078 a 2.0002,2.0002 0 0 0 -1.708985,1.978516 V 60 H 29.587891 V 31.558594 A 2.0002,2.0002 0 0 0 27.878906,29.580078 C 14.900333,27.677057 5.0448787,17.046124 4.0507812,4 H 9.28125 c 1.231666,11.63657 10.984383,20.554048 22.6875,20.734375 a 2.0002,2.0002 0 0 0 0.02344,0 c 11.806958,0.04283 21.70649,-9.003371 22.730469,-20.7617187 z"
+      class="dash"
+      id="A"
+      pathLength="360"
+    ></path>
+  </svg>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    style="--rotation-duration:0ms; --rotation-direction:normal;"
+    viewBox="0 0 64 64"
+    height="64"
+    width="64"
+    class="inline-block"
+  >
+    <path
+      stroke-linejoin="round"
+      stroke-linecap="round"
+      stroke-width="10"
+      stroke="url(#c)"
+      d="M 32 32
+        m 0 -27
+        a 27 27 0 1 1 0 54
+        a 27 27 0 1 1 0 -54"
+      class="spin"
+      id="L"
+      pathLength="360"
+    ></path>
+  </svg>
+  <div class="w-2"></div>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    style="--rotation-duration:0ms; --rotation-direction:normal;"
+    viewBox="0 0 64 64"
+    height="64"
+    width="64"
+    class="inline-block"
+  >
+    <path
+      stroke-linejoin="round"
+      stroke-linecap="round"
+      stroke-width="8"
+      stroke="url(#d)"
+      d="M 4,4 h 4.6230469 v 25.919922 c -0.00276,11.916203 9.8364941,21.550422 21.7500001,21.296875 11.616666,-0.240651 21.014356,-9.63894 21.253906,-21.25586 a 2.0002,2.0002 0 0 0 0,-0.04102 V 4 H 56.25 v 25.919922 c 0,14.33873 -11.581192,25.919922 -25.919922,25.919922 a 2.0002,2.0002 0 0 0 -0.0293,0 C 15.812309,56.052941 3.998433,44.409961 4,29.919922 Z"
+      class="dash"
+      id="i"
+      pathLength="360"
+    ></path>
+  </svg>
+</div>
 
-<topic 
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-	xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-	title="Quick start" id="Quick-start">
-
-    <p>The current version of %instance% (%product-version%) provides the <a href="linters.md">linters</a> that let you analyze
-        Java, Kotlin, Groovy, PHP, JavaScript, TypeScript, C#, Visual Basic, C, C++, Python, and Golang projects. You can
-        also extend the default linter configuration using various <a href="features.topic">features</a>. </p>
-
-    <p>As an example, this section explains how you can quickly start working with %instance% using:</p>
-
-    <list>
-        <li><a anchor="quickstart-run-in-ide">JetBrains IDEs</a></li>
-        <li><a anchor="quickstart-run-using-cli">Command-line interface</a></li>
-        <li><a anchor="quickstart-run-in-github">GitHub Actions</a></li>
-    </list>
-
-    <chapter title="Prerequisites" id="quickstart-prerequisites">
-
-        <note>You can skip the prerequisites if you would like to run %instance% in <a anchor="quickstart-run-in-ide">JetBrains IDEs</a>.</note>
-
-        <p>Depending on your %instance% <a href="pricing.md">license</a>, you probably need to obtain a trial license and accomplish
-            the <a href="cloud-onboarding.md">onboarding</a> stage at Qodana Cloud.</p>
-        <p>To run %instance% in the CLI and GitHub, you will be using a project token available after creating a Qodana Cloud
-            <a href="cloud-projects.topic">project</a>. To learn more about it, see the <a href="project-token.md"/> section.</p>
-
-    </chapter>
-
-    <chapter title="Run Qodana in JetBrains IDEs" id="quickstart-run-in-ide">
-
-        <p>Starting from version 2023.2, %instance% is available in IntelliJ IDEA and PyCharm (both the Professional and
-            Community editions), PhpStorm, WebStorm, GoLand, and Rider.</p>
-
-        <tip>You do not need to buy a separate %instance% license to run it in the IDE.</tip>
-
-        <p>Here is the short video showing how you can run %instance% in your IDE.</p>
-
-        <img src="quickstart-run-in-ide.gif" width="792" alt="Running Qodana in an IDE" border-effect="line" preview-src="quickstart-run-in-ide.png"/>
-
-        <p>Here is the description of all steps shown in this video:</p>
-
-        <procedure>
-                <step>In your IDE, navigate to the <ui-path>Problems</ui-path> tool window. </step>
-                <step>In the <ui-path>Problems</ui-path> tool window, click the <ui-path>Server-Side Analysis</ui-path> tab.</step>
-                <step>On the <ui-path>Server-Side Analysis</ui-path> tab, click the <ui-path>Try locally</ui-path> button to start %product%.</step>
-                <step>
-                    On the <ui-path>Server-Side Analysis</ui-path> tab, you can view inspection results. It
-                        also contains two links in the upper part of the tab.
-                    <img src="quickstart-run-in-ide-report-links.png" width="706" alt="Links on the Server-Side Analysis tab" border-effect="line"/>
-        <tabs>
-            <tab title="Open Qodana report in browser" id="quickstart-open-report-in-browser">
-                <p>Open the inspection report in your browser.</p>
-                <img src="quickstart-run-in-ide-report.png" dark-src="quickstart-run-in-ide-report_dark.png" width="706" alt="Qodana report" border-effect="line"/>
-            </tab>
-            <tab title="Add Qodana to CI/CD pipeline" id="quickstart-add-qodana-to-cicd">
-                <p>Open the configuration wizard for using %instance% in CI/CD pipelines.</p>
-
-                <img src="quickstart-run-in-ide-cicd.png" dark-src="quickstart-run-in-ide-cicd_dark.png" width="706" alt="Qodana report" border-effect="line"/>
-
-                <p>To learn more about %instance% and CI/CD pipelines, see the <a href="ci.md"/> section.</p>
-            </tab>
-        </tabs>
-    </step>
-</procedure>
-
-    </chapter>
-
-    <chapter title="Run Qodana using CLI" id="quickstart-run-using-cli">
-
-        <link-summary>Qodana provides two options for local analysis of your code. Qodana CLI is the easiest option to
-            start. Alternatively, you can use a Docker command.</link-summary>
-
-        <p>Qodana provides two options for local analysis of your code.
-            <a href="https://github.com/JetBrains/qodana-cli">Qodana CLI</a> is the easiest option to start.
-            Alternatively, you can use the Docker command from the <ui-path>Docker image</ui-path> tab.</p>
-
-        <tabs>
-            <tab title="Qodana CLI" id="qodana-cli-tab">
-                <p>To run Qodana CLI in the default mode, you must have Docker or Podman installed and running locally.
-                    If you are using Linux, you should be able to run Docker under your current
-                    <a href="https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user">non-root user</a>.</p>
-                <procedure id="qodana-cli-tab-procedure">
-                    <step><p>Install Qodana CLI on your machine using available options:</p>
-                        <tabs>
-                            <tab title="macOS and Linux">
-                                <p>Install with <a href="https://brew.sh/">Homebrew</a> (recommended):</p>
-                                <code-block lang="shell" prompt="$">
-                                    brew install jetbrains/utils/qodana
-                                </code-block>
-                                <p>Alternatively, you can install Qodana CLI using our installer:</p>
-                                <code-block lang="shell" prompt="$">
-                                    curl -fsSL https://jb.gg/qodana-cli/install | bash
-                                </code-block>
-                                <p>You can also install %instance% using <a href="https://go.dev/doc/install">Go</a>:</p>
-                                <code-block lang="shell" prompt="$">
-                                    go install github.com/JetBrains/qodana-cli@latest
-                                </code-block>
-                            </tab>
-                            <tab title="Windows">
-                                <p>Install with <a href="https://scoop.sh/">Scoop</a>:</p>
-                                <code-block lang="shell">
-                                    scoop bucket add jetbrains https://github.com/JetBrains/scoop-utils
-                                    scoop install qodana
-                                </code-block>
-                                <p>You can also install %instance% using <a href="https://go.dev/doc/install">Go</a>:</p>
-                                <code-block lang="shell" prompt="$">
-                                    go install github.com/JetBrains/qodana-cli@latest
-                                </code-block>
-                            </tab>
-                        </tabs>
-                    </step>
-                    <step>
-                        <p>In the project root directory, declare the <code>QODANA_TOKEN</code> variable containing the project
-                            token described in the <a anchor="quickstart-prerequisites">prerequisites</a>:</p>
-                        <code-block lang="shell" prompt="$">
-                            QODANA_TOKEN="&lt;cloud-project-token&gt;"
-                        </code-block>
-                        <p>Now you can run %instance%:</p>
-                        <code-block lang="shell" prompt="$">
-                            qodana scan
-                        </code-block>
-                    </step>
-                </procedure>
-            </tab>
-            <tab title="Docker image" id="docker-image-tab">
-                <p>This section assumes that you have the Docker application deployed on your machine.</p>
-                <procedure id="qodana-docker-image-procedure">
-                    <step>
-                        <p>Pull the image from Docker Hub (only necessary to get the latest version):</p>
-                        <code-block lang="shell" prompt="$">
-                            docker pull &lt;image&gt;
-                        </code-block>
-                        <p>Here, <code>image</code> denotes the Docker image name of a %instance% linter from this table:</p>
-                        <table>
-                            <tr>
-                                <td>Image name</td>
-                                <td>Application</td>
-                            </tr>
-                            <tr>
-                                <td>jetbrains/qodana-jvm</td>
-                                <td>Java and Kotlin for Server Side projects, based on IntelliJ IDEA Ultimate.</td>
-                            </tr>
-                            <tr>
-                                <td>jetbrains/qodana-jvm-community</td>
-                                <td>Java and Kotlin for Server Side projects, based on IntelliJ IDEA Community.</td>
-                            </tr>
-                            <tr>
-                                <td>jetbrains/qodana-jvm-android</td>
-                                <td>Java and Kotlin for Server Side projects, based on IntelliJ IDEA with the Android support.</td>
-                            </tr>
-                            <tr>
-                                <td>jetbrains/qodana-php</td>
-                                <td>PHP projects, based on PhpStorm.</td>
-                            </tr>
-                            <tr>
-                                <td>jetbrains/qodana-python</td>
-                                <td>Python projects, based on PyCharm Professional.</td>
-                            </tr>
-                            <tr>
-                                <td>jetbrains/qodana-python-community</td>
-                                <td>Python projects, based on PyCharm Community.</td>
-                            </tr>
-                            <tr>
-                                <td>jetbrains/qodana-js</td>
-                                <td>JavaScript and TypeScript projects, based on WebStorm.</td>
-                            </tr>
-                            <tr>
-                                <td>jetbrains/qodana-go</td>
-                                <td>Golang projects, based on Goland.</td>
-                            </tr>
-                            <tr>
-                                <td>jetbrains/qodana-dotnet</td>
-                                <td>.NET projects, based on Rider.</td>
-                            </tr>
-                            <tr>
-                                <td>jetbrains/qodana-cdnet</td>
-                                <td>.NET projects, based on ReSharper.</td>
-                            </tr>
-
-                        </table>
-                    </step>
-                    <step>
-                        <p>Run this command to analyze your codebase:</p>
-                        <code-block lang="shell" prompt="$">
-                            docker run \
-                               -p 8080:8080 \
-                               -v &lt;source-directory&gt;/:/data/project/ \
-                               -e QODANA_TOKEN="&lt;cloud-project-token&gt;" \
-                               jetbrains/qodana-&lt;linter&gt; \
-                               --show-report
-                        </code-block>
-                        <p>Here, <code>&lt;source-directory&gt;</code> points to the root of your project, and
-                            the <code>QODANA_TOKEN</code> variable contains the project token described in the
-                            <a anchor="quickstart-prerequisites">prerequisites</a>.</p>
-                    </step>
-                    <step>
-                        <p>Check inspection results <a href="html-report.md">in your browser</a> at
-                            <code>http://localhost:8080</code>.</p>
-                    </step>
-                </procedure>
-            </tab>
-        </tabs>
-        <tip>Depending on your tasks, you can configure %instance% as explained on the <a href="configure-qodana.topic"/> page.</tip>
-    </chapter>
-
-    <chapter title="Run Qodana on GitHub" id="quickstart-run-in-github">
-
-        <link-summary>You can configure Qodana in a few simple steps.</link-summary>
-
-        <p>Here is the short video showing how you can configure and run %instance% in GitHub.</p>
-
-        <img src="quickstart-run-in-github.animated.gif" dark-src="quickstart-run-in-github_dark.png" width="706" alt="Running Qodana in GitHub" border-effect="line" animated="true" preview-src="quickstart-run-in-github.png"/>
-
-        <p>Assuming that you already generated a project token as described in the <a anchor="quickstart-prerequisites"/> chapter, follow these steps to configure %instance% in GitHub:</p>
-
-        <include from="lib_qd.topic" element-id="github-basic-configuration"/>
-
-        <tip>You can learn more about how to use %instance% in CI/CD pipelines in the <a href="ci.md"/> section.</tip>
-
-        <!-- Here, I can create a small video showing how everything works -->
-
-    </chapter>
-
-    <chapter title="Next steps" id="quick-start-next-steps">
-        <list>
-            <li><a href="cloud-about.topic">Study inspection results using Qodana Cloud</a></li>
-            <li><a href="custom-profiles.md">Configure %instance% profiles</a></li>
-            <li><a href="qodana-ide-plugin.md">Use JetBrains IDEs to inspect your code</a></li>
-            <li><a href="ci.md">Build %instance% into your CI pipelines</a></li>
-            <li><a href="docker-image-configuration.topic">Configure Docker images</a></li>
-        </list>
-    </chapter>
-
-</topic>
